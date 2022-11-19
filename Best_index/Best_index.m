@@ -39,7 +39,7 @@ end
 
 %Output the index of the best IMF combination
 if size(IMF,1)==1
-   disp('The signal is not decomposed or the number of IMF is less than or equal to 1')
+   disp('The signal is not decomposed or the number of IMF equal to 1')
    Best_imfs_index=0;
    return
 else
