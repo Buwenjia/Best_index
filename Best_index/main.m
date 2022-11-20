@@ -6,10 +6,10 @@ close all;
 load('f_my.mat')
 
 %Load modal components after decomposition
-load('imf_UP1_10.mat')
+load('imf_test.mat')
 
 I = f_my;
-IMF=imf_UP1_10;
+IMF=imf_test;
 
 %Call optimization operator
 [max_S,min_R,Best_imfs_index]=Best_index(I,IMF)
